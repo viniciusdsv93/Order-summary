@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url('images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    /* background-position: 0 -100px; */
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 320px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.container-img {
+    height: 160px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: url('images/illustration-hero.svg');
+    background-size: cover;
+}
+
+.container h2 {
+    margin-top: 30px;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+.container p {
+    font-size: 13px;
+    color: #8f8f8f;
+}
+
+.container-text {
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.bold {
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.bold:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+button {
+    width: 100%;
+    border: none;
+    height: 35px;
+    border-radius: 8px;
+    background-color: rgb(56, 41, 224);
+    cursor: pointer;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 15px;
+    box-shadow: 0px 15px 15px rgba(56, 41, 224, 0.2);
+}
+
+button:hover {
+    background-color: #766CF1;
+}
+
+.container-price {
+    width: 100%;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-and-price {
+    display: flex;
+    align-items: center;
+}
+
+.annual-price {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+}
+
+.annual-price h2 {
+    font-size: 13px;
+    margin: 0;
+}
+
+.icon-and-price img {
+    width: 35px;
+    height: auto;
+} 
+
+.container-price a {
+    font-size: 13px;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.container-price a:hover {
+    text-decoration: none;
+    color: #766CF1;
+}
+
+.attribution {
+    position: fixed;
+    bottom: 0;
+    font-size: 13zpx;
+}
